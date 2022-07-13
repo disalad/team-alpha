@@ -22,7 +22,7 @@ app.use(morgan('dev'));
 app.use('/admins', adminRoute);
 
 app.use((req, res) => {
-    res.status(404).json({ message: 'URL Not Found' });
+    res.status(404).json({ error: 'URL Not Found' });
 });
 
 module.exports = app;

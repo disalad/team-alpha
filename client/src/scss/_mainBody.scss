@@ -1,0 +1,55 @@
+@use './variables' as vars;
+
+#home {
+    min-height: 100vh;
+    background-color: vars.$black;
+    color: vars.$white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    .text-center {
+        .title {
+            margin-top: 0 !important;
+            font-weight: 300;
+            font-size: 5rem;
+            margin-bottom: 0.2em;
+        }
+    }
+    
+    .socials {
+        display: flex;
+        flex-direction: row;
+        gap: 1.5rem;
+        padding: 3rem 0;
+
+        .social-icon {
+            .social-icon-link {
+                font-size: 3rem;
+                color: unset;
+                text-decoration: none;
+
+                &:hover > .icon {
+                    transform: scale(1.1);
+                }
+            }
+        }
+    }
+
+    .more-btn {
+        font-size: 1.25rem;
+        border: 1px solid vars.$white;
+        border-radius: 0.25rem;
+        background: transparent;
+        padding: 0.55rem 1.1rem;
+        color: inherit;
+        text-decoration: none;
+        transition: 0.25s all;
+
+        &:hover {
+            color: vars.$black;
+            background: vars.$white;
+        }
+    }
+}

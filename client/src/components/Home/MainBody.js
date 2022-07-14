@@ -1,5 +1,6 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub, faTwitter, faTelegram } from '@fortawesome/free-brands-svg-icons';
+import './mainBody.scss';
 
 function MainBody() {
     return (

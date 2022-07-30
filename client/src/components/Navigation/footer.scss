@@ -4,11 +4,28 @@
     background-color: var.$cultured;
     color: var.$darkGunmetal;
     text-align: center;
-    padding: 3rem 0;
 
     .container {
         margin-left: auto;
         margin-right: auto;
+        padding: 2rem 1rem;
+        
+        @media (min-width: 576px) {
+            max-width: 540px;
+            padding: 4rem 2rem;
+        }
+
+        @media (min-width: 768px) {
+            max-width: 720px;
+        }
+
+        @media (min-width: 992px) {
+            max-width: 960px;
+        }
+
+        @media (min-width: 1200px) {
+            max-width: 1140px;
+        }
 
         .footer-title {
             font-size: 3.5rem;
@@ -20,38 +37,15 @@
             .footer-content__about {
                 font-size: 1.25rem;
                 font-weight: 300;
+                margin-bottom: 1.5rem;
             }
 
             .footer-content-end {
                 color: var.$auroMetalSaurus;
                 margin: 0;
-                font-size: 0.90rem;
+                font-size: 0.9rem;
                 font-weight: 400;
             }
         }
-    }
-}
-
-@media (min-width: 576px) {
-    .container {
-        max-width: 540px;
-    }
-}
-
-@media (min-width: 768px) {
-    .container {
-        max-width: 720px;
-    }
-}
-
-@media (min-width: 992px) {
-    .container {
-        max-width: 960px;
-    }
-}
-
-@media (min-width: 1200px) {
-    .container {
-        max-width: 1140px;
     }
 }

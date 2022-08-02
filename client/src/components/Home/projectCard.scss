@@ -4,22 +4,30 @@
     display: flex;
     flex-direction: column;
     min-width: 0;
-    word-wrap: break-word;
-    background-color: #fff;
-    background-clip: border-box;
-    border: 1px solid rgba(0, 0, 0, 0.125);
-    border-radius: 0.25rem;
-    padding: 1.75rem 2.25rem;
-    margin-bottom: 1rem;
-    box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175);
-    transition: transform 0.3s, box-shadow 0.3s, -webkit-transform 0.3s;
+    flex: 0 0 100%;
+    padding: 0 1rem;
 
-    &:hover {
-        box-shadow: 0 2rem 3rem rgba(0, 0, 0, 0.175);
-        transform: translateY(-2px);
+    @media screen and (min-width: 768px) {
+        flex: 0 0 50%;
+        max-width: 50%;
     }
 
     .project-card__content {
+        word-wrap: break-word;
+        background-color: #fff;
+        background-clip: border-box;
+        border: 1px solid rgba(0, 0, 0, 0.125);
+        border-radius: 0.25rem;
+        padding: 1.75rem 2.25rem;
+        margin-bottom: 3rem;
+        box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175);
+        transition: transform 0.3s, box-shadow 0.3s, -webkit-transform 0.3s;
+
+        &:hover {
+            box-shadow: 0 2rem 3rem rgba(0, 0, 0, 0.175);
+            transform: translateY(-2px);
+        }
+
         .project-title {
             font-size: 1.2rem;
             font-weight: 500;

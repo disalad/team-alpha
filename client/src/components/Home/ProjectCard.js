@@ -31,7 +31,7 @@ function ProjectCard({ project }) {
                 </a>
                 <a className="link-btn" href={svn_url} target="_blank" rel="noreferrer">
                     <FontAwesomeIcon icon={faGithub} className="github-icon" />
-                    Repository
+                    Repo
                 </a>
                 <hr className="divider" />
                 <Languages languages_url={languages_url} repo_url={svn_url} />

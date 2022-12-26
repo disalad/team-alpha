@@ -8,6 +8,9 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
 
     .text-center {
         .title {
@@ -16,8 +19,15 @@
             font-size: 5rem;
             margin-bottom: 0.2em;
         }
+
+        .typist {
+            font-size: 1.25rem;
+            font-weight: 300;
+            margin: 0 !important;
+            text-align: center;
+        }
     }
-    
+
     .socials {
         display: flex;
         flex-direction: row;
@@ -40,7 +50,7 @@
     .more-btn {
         font-size: 1.25rem;
         border: 1px solid vars.$white;
-        border-radius: 0.25rem;
+        border-radius: 0.35rem;
         background: transparent;
         padding: 0.55rem 1.1rem;
         color: inherit;
@@ -51,5 +61,17 @@
             color: vars.$black;
             background: vars.$white;
         }
+    }
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
     }
 }

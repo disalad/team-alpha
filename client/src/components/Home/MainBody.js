@@ -7,6 +7,7 @@ function MainBody() {
         <section id="home">
             <div className="text-center">
                 <h1 className="title">Team Alpha</h1>
+                <p className="typist">Building the Future with Technology</p>
             </div>
             <div className="socials">
                 <article className="telegram social-icon">

@@ -6,20 +6,21 @@ function AboutUs() {
             <div className="about-container">
                 <div className="row">
                     <div className="about-img">
-                        <img
-                            src={require('../../assets/images/conifer-weather-forecast.png')}
-                            alt="About"
-                        />
+                        <div className="image-container">
+                            <img
+                                src={require('../../assets/images/team-alpha-display-picture.jpg')}
+                                alt="About"
+                            />
+                        </div>
                     </div>
                     <div className="about-content">
                         <h1 className="about-content__title">About Us</h1>
                         <p className="about-content__description">
-                            We are Team Alpha. Lorem ipsum dolor sit, amet consectetur
-                            adipisicing elit. Porro alias dignissimos fuga possimus ipsam
-                            excepturi velit exercitationem quibusdam explicabo nulla id
-                            adipisci, illum suscipit nam ab amet non odit consequuntur.
-                            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                            Magnam, iure! Lorem ipsum dolor sit amet.
+                            Hey! We are Team Alpha. We're a non-profit organization
+                            creating Telegram bots and Web apps. We're most
+                            passionate about giving back to the community, and our goal is
+                            to pursue this passion within the field of software
+                            engineering.
                         </p>
                         <p className="contact">
                             <a href="https://t.me/imGishan" className="contact-btn">

@@ -1,5 +1,5 @@
 import MainBody from '../components/Home/MainBody';
-// import Services from '../components/Home/Services';
+import Technologies from '../components/Home/Technologies';
 import Projects from '../components/Home/Projects';
 import AboutUs from '../components/Home/AboutUs';
 import OurAdmins from '../components/Home/OurAdmins';
@@ -8,7 +8,7 @@ function Home() {
     return (
         <>
             <MainBody />
-            {/* <Services /> */}
+            <Technologies />
             <Projects />
             <AboutUs />
             <OurAdmins />

@@ -13,6 +13,7 @@
     padding: 0.5rem 1.75vw;
     max-width: 100% !important;
     transition: 0.2s all;
+    z-index: 999 !important;
     
     &.white {
         background-color: var.$brightGray !important;

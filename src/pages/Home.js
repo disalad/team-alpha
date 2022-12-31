@@ -2,7 +2,7 @@ import MainBody from '../components/Home/MainBody';
 import Technologies from '../components/Home/Technologies';
 import Projects from '../components/Home/Projects';
 import AboutUs from '../components/Home/AboutUs';
-import OurAdmins from '../components/Home/OurAdmins';
+import Admins from '../components/Home/Admins';
 
 function Home() {
     return (
@@ -11,7 +11,7 @@ function Home() {
             <Technologies />
             <Projects />
             <AboutUs />
-            <OurAdmins />
+            <Admins />
         </>
     );
 }

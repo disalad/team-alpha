@@ -1,0 +1,31 @@
+.tab-panel {
+    opacity: 0;
+    display: none;
+
+    &.active {
+        display: block;
+        opacity: 1;
+    }
+
+    .tab-panel-content {
+        padding-top: 1.5rem;
+        padding-left: 0.25rem;
+        padding-right: 0.25rem;
+        display: flex;
+        flex-direction: column;
+        gap: 2.5rem;
+
+        .tab-panel-content-row {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            justify-content: space-around;
+
+            p {
+                text-align: center;
+                margin-top: 0.35rem;
+                margin-bottom: 0;
+            }
+        }
+    }
+}

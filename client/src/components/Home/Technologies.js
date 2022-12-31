@@ -1,3 +1,4 @@
+import Languages from '../Technologies/Languages';
 import { useState } from 'react';
 import './technologies.scss';
 
@@ -39,6 +40,11 @@ function Technologies() {
                             </button>
                         </li>
                     </ul>
+
+                    {/* Tab Content */}
+                    <div>
+                        <Languages active={currentTab === 'langs'} />
+                    </div>
                 </div>
             </div>
         </section>

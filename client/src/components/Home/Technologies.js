@@ -1,4 +1,5 @@
 import Languages from '../Technologies/Languages';
+import Databases from '../Technologies/Databases';
 import { useState } from 'react';
 import './technologies.scss';
 
@@ -44,6 +45,7 @@ function Technologies() {
                     {/* Tab Content */}
                     <div>
                         <Languages active={currentTab === 'langs'} />
+                        <Databases active={currentTab === 'dbs'} />
                     </div>
                 </div>
             </div>

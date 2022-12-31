@@ -1,3 +1,5 @@
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faReact } from '@fortawesome/free-brands-svg-icons';
 import './footer.scss';
 
 function Footer() {
@@ -7,15 +9,15 @@ function Footer() {
                 <div className="footer-title">Get In Touch</div>
                 <div className="footer-content">
                     <p className="footer-content__about">
-                        We're currently looking for full-time Software Engineering or
-                        Machine Learning opportunities! If you know of any positions
-                        available, if you have any questions, or if you just want to say
-                        hi, please feel free to email me at,{' '}
+                        We're currently looking for more open source project ideas and
+                        more developers who can work with us. If you have an idea or you
+                        wanna work with us, if you have any questions, or if you just want
+                        to say hi, please feel free to contact us via{' '}
                         <a
-                            href="mailto:ponnagishan@gmail.com"
+                            href="https://t.me/AlphaTm_Botz_chat"
                             className="footer-content__email link"
                         >
-                            example@example.com
+                            telegram
                         </a>
                         .
                     </p>
@@ -25,9 +27,12 @@ function Footer() {
                             href="https://github.com/disalad"
                             className="footer-developer-info__link link"
                         >
-                            Disala Damsas
+                            Disala Yuthmira
                         </a>{' '}
-                        using <a href="https://reactjs.org" className="link">React</a>
+                        using{' '}
+                        <a href="https://reactjs.org" className="link">
+                            <FontAwesomeIcon icon={faReact} />
+                        </a>
                     </div>
                     <p className="footer-content-end">
                         Project code is open source. Feel free to fork and make your own

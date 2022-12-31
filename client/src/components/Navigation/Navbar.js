@@ -36,17 +36,17 @@ function Navbar() {
                 <FontAwesomeIcon icon={faBars} />
             </div>
             <nav className="nav">
-                <a href="#services" className="nav-link">
-                    Services
+                <a href="#technologies" className="nav-link">
+                    Technologies
                 </a>
                 <a href="#projects" className="nav-link">
                     Projects
                 </a>
                 <a href="#aboutus" className="nav-link">
-                    About Us
+                    About
                 </a>
-                <a href="#admins" className="nav-link">
-                    Admins
+                <a href="#footer" className="nav-link">
+                    Contact
                 </a>
             </nav>
         </header>

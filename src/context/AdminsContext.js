@@ -3,7 +3,7 @@ import axios from 'axios';
 
 const AdminsContext = createContext();
 
-export function useProjects() {
+export function useAdmins() {
     return useContext(AdminsContext);
 }
 
@@ -17,7 +17,7 @@ function AdminsContextProvider({ children }) {
                 axios
                     .get('https://api.jsonbin.io/v3/b/63b06049dfc68e59d574f176')
                     .then(res => {
-                        setAdmins(res);
+                        setAdmins(res.data.record.admins);
                         setLoading(false);
                     });
             } catch (err) {

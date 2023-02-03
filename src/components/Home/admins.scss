@@ -29,5 +29,20 @@
             font-weight: 300;
             text-align: center;
         }
+
+        .arrows {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+        }
+
+        .react-horizontal-scrolling-menu--scroll-container::-webkit-scrollbar {
+            display: none;
+        }
+
+        .react-horizontal-scrolling-menu--scroll-container {
+            -ms-overflow-style: none; /* IE and Edge */
+            scrollbar-width: none; /* Firefox */
+        }
     }
 }

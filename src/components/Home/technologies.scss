@@ -25,15 +25,18 @@
         }
 
         .p-3rem {
-            padding: 3rem !important;
+            padding: 3rem 0;
+
+            @media screen and (min-width: 870px) {
+                padding: 3rem;
+            }
         }
     }
 
     .section-title {
         font-size: 3.5rem;
         margin-top: 0;
-        margin-bottom: 0.5rem;
-        padding-bottom: 3rem !important;
+        margin-bottom: 3.5rem;
         font-weight: 300;
         text-align: center;
     }

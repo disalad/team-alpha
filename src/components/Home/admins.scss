@@ -1,14 +1,16 @@
 @use '../../scss/variables' as var;
 
 #admins {
+    padding: 3rem 0;
+
     .admins-container {
         margin-left: auto;
         margin-right: auto;
-        padding: 2rem 0;
+        padding: 2rem 1rem;
 
         @media (min-width: 576px) {
             max-width: 540px;
-            padding: 4rem 0;
+            padding: 3rem 0;
         }
 
         @media (min-width: 768px) {
